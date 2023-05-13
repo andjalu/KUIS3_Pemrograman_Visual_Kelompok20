@@ -97,6 +97,8 @@ class HalamanUtamaState extends State<HalamanUtama> {
               title: const Text('Jenis Pinjaman'),
             ),
             body: Column(children: [
+                Text(
+                  "2102204,Mohamad Asyqari Anugrah ; 2102671,Anderfa Jalu Kawani Saya berjanji tidak akan berbuat curang data atau membantu orang lain berbuat curang"),
               DropdownButton<String>(
                 isExpanded: true,
                 value: selectedKode,
