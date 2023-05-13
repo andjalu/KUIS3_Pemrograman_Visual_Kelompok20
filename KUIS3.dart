@@ -15,7 +15,6 @@ class Pinjaman {
 class ListPinjaman {
   //list berisi nama dan situs
   List<Pinjaman> listPinjaman = <Pinjaman>[];
-
   //constructor
   ListPinjaman(dynamic json) {
     //loop isi elemen data untuk ambil nama dan situs
@@ -97,7 +96,7 @@ class HalamanUtamaState extends State<HalamanUtama> {
               title: const Text('Jenis Pinjaman'),
             ),
             body: Column(children: [
-                Text(
+              Text(
                   "2102204,Mohamad Asyqari Anugrah ; 2102671,Anderfa Jalu Kawani Saya berjanji tidak akan berbuat curang data atau membantu orang lain berbuat curang"),
               DropdownButton<String>(
                 isExpanded: true,
